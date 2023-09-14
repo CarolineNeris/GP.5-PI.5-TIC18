@@ -1,0 +1,7 @@
+
+# Ignorar a pasta .vscode/
+.vscode/
+.out
+
+# Ignorar o arquivo secreto.txt
+secreto.txt
