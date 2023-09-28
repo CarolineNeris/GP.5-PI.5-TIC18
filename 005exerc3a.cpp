@@ -9,8 +9,12 @@ int main(){
     cout<<"Digite dois valores inteiros: ";
     cin>>a>>b;
 
-    cout<<a<<endl;
-    cout<<b<<endl;
+    //cout<<a<<endl;
+    //cout<<b<<endl;
+
+    c=a+b;
+
+    cout<<showbase<<hex<<c<<endl;
 
     return 0;
 }
