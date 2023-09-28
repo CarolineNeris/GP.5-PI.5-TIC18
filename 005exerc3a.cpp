@@ -13,8 +13,9 @@ int main(){
     //cout<<b<<endl;
 
     c=a+b;
-
     cout<<showbase<<hex<<c<<endl;
 
+    c=a*b;
+    cout<<showbase<<oct<<c<<endl;
     return 0;
 }
