@@ -24,5 +24,13 @@ int main(){
     cout<<showbase<<oct<<(int)ch2<<endl;
     cout<<showbase<<hex<<(int)ch2<<endl;
     cout<<showbase<<ch2<<endl;
+    
+    ch3=tolower(ch2);
+    cout<<showbase<<dec<<(int)ch3<<endl;
+    cout<<showbase<<oct<<(int)ch3<<endl;
+    cout<<showbase<<hex<<(int)ch3<<endl;
+    cout<<showbase<<ch3<<endl;
+    
+
     return 0;
 }
