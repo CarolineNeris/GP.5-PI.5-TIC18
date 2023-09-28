@@ -19,5 +19,10 @@ int main(){
             islower(ch1)?cout<<"Minusculo"<<endl:
                 isprint(ch1)?cout<<"Um digito"<<endl:
                     cout<<"outro tipo de caracter"<<endl;
+    ch2=81;
+    cout<<showbase<<dec<<(int)ch2<<endl;
+    cout<<showbase<<oct<<(int)ch2<<endl;
+    cout<<showbase<<hex<<(int)ch2<<endl;
+    cout<<showbase<<ch2<<endl;
     return 0;
 }
