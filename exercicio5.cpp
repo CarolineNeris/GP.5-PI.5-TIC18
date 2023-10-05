@@ -20,6 +20,8 @@ int main() {
     cout << "A planta possui " << genes_presentes << " genes presentes." << endl;
 
     // Letra c
+    // Quando o valor digitado para informacao_genetica é maior que 8, não é pedido ao usuário para digitar o valor a ser atribuido
+    //na variavel numero_gene_verificar, indo direto para cout << "Numero de gene invalido. Digite um numero entre 1 e 8." << endl;
     int numero_gene_verificar;
     cout << "Digite o numero do gene que voce deseja verificar (entre 1 e 8): ";
     cin >> numero_gene_verificar;
