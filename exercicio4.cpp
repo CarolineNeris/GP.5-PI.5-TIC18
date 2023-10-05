@@ -27,5 +27,8 @@ int main() {
     z = sqrt(x * x + y * y);
     cout << "A distancia euclidiana entre o ponto (" << x << ", " << y << ") e o centro de coordenadas eh: " << z << endl;
 
+    z = x * y;
+    cout << "O produto entre x e y em notação científica: " << scientific << z << endl;
+
     return 0;
 }
