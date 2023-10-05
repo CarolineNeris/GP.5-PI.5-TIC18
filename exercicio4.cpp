@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cmath>
 
 using namespace std;
 
@@ -22,6 +23,9 @@ int main() {
     } else {
         cout << "O ponto (" << x << ", " << y << ") esta na curva f(x) = 5x + 2." << endl;
     }
+
+    z = sqrt(x * x + y * y);
+    cout << "A distancia euclidiana entre o ponto (" << x << ", " << y << ") e o centro de coordenadas eh: " << z << endl;
 
     return 0;
 }
