@@ -12,6 +12,9 @@ int main(void){
     
     c = a + b;
     cout << "A soma de a e b em formato hexadecimal: 0x" << hex << c << endl;
+
+    c = a * b;
+    cout << "O produto de a e b em formato octal: " << oct << c << endl;
     
     return 0;
 }
