@@ -24,7 +24,12 @@ int main(void){
         cout << "Divisao por zero nao eh possivel." << endl;
     } else {
         c = a / b;
-        cout << "O quociente entre a e b: " << c << endl;
-    }
+        cout << "O quociente entre a e b: " << c << endl; 
+        if (a % b == 0) {
+            cout << "a eh divisivel por b de forma exata." << endl;
+        } else {
+            cout << "a não eh divisivel por b de forma exata." << endl;
+        } }
+    
     return 0;
 }
