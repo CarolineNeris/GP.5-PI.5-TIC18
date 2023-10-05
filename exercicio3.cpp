@@ -19,6 +19,12 @@ int main(void){
 
     c = abs(a - b); 
     cout << "O modulo da diferenca entre a e b: " << c << endl;
-    
+
+    if (b == 0) {
+        cout << "Divisao por zero nao eh possivel." << endl;
+    } else {
+        c = a / b;
+        cout << "O quociente entre a e b: " << c << endl;
+    }
     return 0;
 }
