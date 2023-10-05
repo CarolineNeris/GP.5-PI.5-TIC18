@@ -10,6 +10,8 @@ int main(void){
     cout << "Digite outro numero inteiro : " << endl;
     cin >> b;
     
+    c = a + b;
+    cout << "A soma de a e b em formato hexadecimal: 0x" << hex << c << endl;
     
     return 0;
 }
