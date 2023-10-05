@@ -1,4 +1,5 @@
 #include<iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -15,6 +16,9 @@ int main(void){
 
     c = a * b;
     cout << "O produto de a e b em formato octal: " << oct << c << endl;
+
+    c = abs(a - b); 
+    cout << "O modulo da diferenca entre a e b: " << c << endl;
     
     return 0;
 }
